@@ -55,6 +55,7 @@ public class ServiceMovieList implements IMovieService {
         System.out.println("Ingrese el nombre de la Pelicula");
         boolean flag = false;
         String nameMovie = input.next();
+        int shelf =movie.getName().indexOf(nameMovie);
         for (Movie e : movies) {
             if (e.getName().equalsIgnoreCase(nameMovie)) {
                 flag = true;
@@ -65,7 +66,8 @@ public class ServiceMovieList implements IMovieService {
             System.out.println("La pelicula no se encuentra en la biblioteca");
             System.out.println();
         } else {
-            System.out.println("La pelicula " + nameMovie + ", se encuentra alojada en la biblioteca.");
+            System.out.println("La pelicula " + nameMovie + ", se encuentra alojada en la biblioteca. " +
+                    "\nPuede ubicarla en el Estante " + shelf + " de la biblioteca.");
         }
     }
 
