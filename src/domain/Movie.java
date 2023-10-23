@@ -21,6 +21,10 @@ public class Movie {
         this.princActors = princActors;
     }
 
+    public Movie(String line) {
+    ???
+    }
+
     public String getName() {
         return name;
     }

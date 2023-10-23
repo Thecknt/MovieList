@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class ServiceMovieList implements IMovieService {
     Scanner input = new Scanner(System.in).useDelimiter("\n");
     Movie movie;
+    FileMovieService files;
 
     private final List<Movie> movies = new ArrayList<>();
 
@@ -72,6 +73,7 @@ public class ServiceMovieList implements IMovieService {
     }
 
     public void menu() {
+       files = new FileMovieService();
         int option;
         boolean exit = false;
 
