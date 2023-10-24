@@ -1,0 +1,18 @@
+* Titulo: 101 Dalmatas
+* Duracion: 90 min.
+* Genero: Infantil
+* Director: Spilberg
+* Actores Principales: Cruella DeVille
+
+* Titulo: Titanic
+* Duracion: 180 min.
+* Genero: suspenso
+* Director: Spilberg
+* Actores Principales: Leonardo Di Caprio
+
+* Titulo: Cars
+* Duracion: 90 min.
+* Genero: Infantil
+* Director: Pixar/Disney
+* Actores Principales: Owen Wilson
+

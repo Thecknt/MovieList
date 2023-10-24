@@ -22,7 +22,7 @@ public class Movie {
     }
 
     public Movie(String line) {
-    ???
+
     }
 
     public String getName() {
@@ -80,13 +80,12 @@ public class Movie {
 
     @Override
     public String toString() {
-        return "*********************************************" +
-                "\n* Datos de la Pelicula: " +
-                "\n* Titulo: " + name  +
-                "\n* Duracion: " + duration  +
+        return
+                "* Titulo: " + name  +
+                "\n* Duracion: " + duration  + " min."+
                 "\n* Genero: " + gender  +
                 "\n* Director: " + director  +
-                "\n* Actores Principales: " + princActors  +
-                "\n*********************************************";
+                "\n* Actores Principales: " + princActors +
+                "\n";
     }
 }
