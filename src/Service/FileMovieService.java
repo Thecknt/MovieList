@@ -3,6 +3,7 @@ package Service;
 import domain.Movie;
 
 import java.io.*;
+import java.util.Objects;
 import java.util.Scanner;
 
 //Creo una clase para manejar el guardado de archivos
@@ -95,8 +96,8 @@ try {
    boolean found = false;
 
    while (txtFile != null){
-       //Buscamos sin importar mayusculas o minusculas
-       if(movieToFound != null && movieToFound.equalsIgnoreCase("* Titulo: "+txtFile)){
+       //Buscamos si hay coincidencia en el archivo.
+       if(txtFile.equals("* Titulo: "+movieToFound)){
            found = true;
            break;
        }
