@@ -38,14 +38,6 @@ public class ServiceMovieList implements IMovieService {
     @Override
     public void showMovieList() {
         files.showMovieList();
-        /*if (movies.isEmpty()) {
-            System.out.println("No hay peliculas aun agregadas a la Bibliotecas");
-        } else {
-            for (Movie e : movies) {
-                System.out.println(e.toString());
-            }
-            System.out.println();
-        }*/
     }
 
     @Override
@@ -59,24 +51,6 @@ public class ServiceMovieList implements IMovieService {
     @Override
     public void movieSearch(Movie movie) {
         files.movieSearch(movie);
-        /*System.out.println("Ingrese el nombre de la Pelicula");
-        boolean flag = false;
-        String nameMovie = input.next();
-
-        int shelf =movie.getName().indexOf(nameMovie);
-        for (Movie e : movies) {
-            if (e.getName().equalsIgnoreCase(nameMovie)) {
-                flag = true;
-            }
-            System.out.println();
-        }
-        if (!flag) {
-            System.out.println("La pelicula no se encuentra en la biblioteca");
-            System.out.println();
-        } else {
-            System.out.println("La pelicula " + nameMovie + ", se encuentra alojada en la biblioteca. " +
-                    "\nPuede ubicarla en el Estante " + shelf + " de la biblioteca.");
-        }*/
     }
 
     public void menu() {

@@ -11,7 +11,4 @@ public interface IMovieService {
 
     public void movieSearch(Movie movie);
 
-    //public void menu();
-
-
 }
