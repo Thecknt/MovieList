@@ -3,7 +3,6 @@ package Service;
 import domain.Movie;
 
 import java.io.*;
-import java.util.Objects;
 import java.util.Scanner;
 
 //Creo una clase para manejar el guardado de archivos
@@ -12,7 +11,6 @@ public class FileMovieService implements IMovieService{
     Scanner input = new Scanner(System.in).useDelimiter("\n");
     private final String NOMBRE_ARCHIVO = "peliculas.txt";
 
-    //FileWriter fileTxt;
     PrintWriter txt;
     File file;
 
